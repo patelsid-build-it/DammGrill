@@ -107,7 +107,7 @@ const Kontakt = () => {
             <div className="h-full min-h-[600px]">
               <iframe
                 title="Damm Grill Location"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2488.456789!2d6.755!3d51.472!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTHCsDI4JzE5LjIiTiA2wrA0NSczMC4wIkU!5e0!3m2!1sde!2sde!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2487.123456789!2d6.755556!3d51.472222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8c26f9d9d9d9d%3A0x1234567890abcdef!2sAuf%20dem%20Damm%2052%2C%2047137%20Duisburg!5e0!3m2!1sde!2sde!4v1234567890123!5m2!1sde!2sde"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
