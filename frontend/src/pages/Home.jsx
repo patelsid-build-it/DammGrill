@@ -52,7 +52,7 @@ const Home = () => {
       <section className="bg-blue-700 py-8 relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-800 opacity-50"></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center text-white">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-center text-white">
             <div className="flex flex-col items-center space-y-2">
               <Clock size={32} className="mb-2" />
               <p className="font-bold text-lg">Täglich geöffnet</p>
@@ -70,6 +70,12 @@ const Home = () => {
               <Users size={32} className="mb-2" />
               <p className="font-bold text-lg">Sitzplätze</p>
               <p className="text-blue-100">50 Innen + 50 Terrasse</p>
+            </div>
+            <div className="flex flex-col items-center space-y-2">
+              <span className="text-3xl mb-2">🏟️</span>
+              <p className="font-bold text-lg">MSV Live</p>
+              <p className="text-blue-100">Alle MSV Spiele</p>
+              <p className="text-yellow-300 font-semibold text-sm">LIVE BEI UNS!</p>
             </div>
           </div>
         </div>
