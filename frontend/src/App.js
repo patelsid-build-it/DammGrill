@@ -3,6 +3,7 @@ import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import CookieConsent from "./components/CookieConsent";
 import Home from "./pages/Home";
 import Speisekarte from "./pages/Speisekarte";
 import Erinnerungen from "./pages/Erinnerungen";
@@ -26,6 +27,7 @@ function App() {
           </Routes>
         </main>
         <Footer />
+        <CookieConsent />
       </BrowserRouter>
     </div>
   );

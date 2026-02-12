@@ -21,8 +21,13 @@ const Header = () => {
         <div className="flex justify-between items-center h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <div className="w-12 h-12 rounded-lg flex items-center justify-center shadow-lg overflow-hidden">
-              <img src="/favicon.png" alt="Damm Grill" className="w-full h-full object-contain" />
+            <div className="w-12 h-12 rounded-lg flex items-center justify-center shadow-lg overflow-hidden bg-white">
+              <img 
+                src="/favicon.png" 
+                alt="Damm Grill" 
+                className="w-full h-full object-contain"
+                style={{ imageRendering: 'crisp-edges' }}
+              />
             </div>
             <div className="flex flex-col">
               <span className="text-2xl font-bold text-blue-700">DAMM GRILL</span>
