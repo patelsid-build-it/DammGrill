@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#2563eb" />
         <meta name="description" content="Damm Grill - Schnellimbiss & Restaurant in Duisburg. Griechische Küche und deutsche Spezialitäten. Täglich geöffnet 12:00 - 22:00 Uhr" />
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <link rel="apple-touch-icon" href="/favicon.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet" />
@@ -23,68 +25,6 @@
         -->
         <title>Damm Grill - Restaurant Duisburg | Griechische Küche</title>
         <script src="https://assets.emergent.sh/scripts/emergent-main.js"></script>
-        <script>
-            // Create and set favicon
-            const setFavicon = () => {
-              // Remove existing favicons
-              const existingFavicons = document.querySelectorAll("link[rel*='icon']");
-              existingFavicons.forEach(favicon => favicon.remove());
-              
-              // Create a canvas to draw the fork/fire icon
-              const canvas = document.createElement('canvas');
-              canvas.width = 32;
-              canvas.height = 32;
-              const ctx = canvas.getContext('2d');
-              
-              if (ctx) {
-                // Draw a simple flame/fork representation
-                // Background circle
-                ctx.fillStyle = '#2563eb';
-                ctx.beginPath();
-                ctx.arc(16, 16, 14, 0, Math.PI * 2);
-                ctx.fill();
-                
-                // Flame shape
-                ctx.fillStyle = '#FFD93D';
-                ctx.beginPath();
-                ctx.moveTo(16, 8);
-                ctx.quadraticCurveTo(20, 12, 18, 18);
-                ctx.quadraticCurveTo(16, 14, 16, 20);
-                ctx.quadraticCurveTo(16, 14, 14, 18);
-                ctx.quadraticCurveTo(12, 12, 16, 8);
-                ctx.fill();
-                
-                // Fork prongs
-                ctx.strokeStyle = '#FFF';
-                ctx.lineWidth = 1.5;
-                ctx.beginPath();
-                ctx.moveTo(14, 22);
-                ctx.lineTo(14, 26);
-                ctx.moveTo(16, 22);
-                ctx.lineTo(16, 26);
-                ctx.moveTo(18, 22);
-                ctx.lineTo(18, 26);
-                ctx.stroke();
-              }
-              
-              // Convert canvas to favicon
-              const faviconUrl = canvas.toDataURL('image/png');
-              
-              // Add new favicon
-              const link = document.createElement('link');
-              link.rel = 'icon';
-              link.type = 'image/png';
-              link.href = faviconUrl;
-              document.head.appendChild(link);
-            };
-
-            // Run this function when page loads
-            if (document.readyState === 'loading') {
-              document.addEventListener('DOMContentLoaded', setFavicon);
-            } else {
-              setFavicon();
-            }
-        </script>
         <!--
         These two scripts have been added for the Visual Edits, please do not edit or remove them
         -->
