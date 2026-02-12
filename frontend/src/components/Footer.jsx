@@ -19,7 +19,7 @@ const Footer = () => {
                 <Clock size={18} />
                 <span className="font-semibold">KEINE RUHETAGE MEHR!</span>
               </div>
-              <p className="text-yellow-300 font-bold text-lg italic">
+              <p className="text-white font-bold text-lg italic">
                 Einmal Damm immer Damm
               </p>
               <p className="text-blue-100 text-sm mt-3">

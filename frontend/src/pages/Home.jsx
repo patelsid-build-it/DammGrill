@@ -25,7 +25,7 @@ const Home = () => {
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
             Willkommen bei<br/>
-            <span className="text-yellow-400">DAMM GRILL</span>
+            <span className="text-white">DAMM GRILL</span>
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 leading-relaxed">
             Authentische griechische Küche trifft deutsche Spezialitäten<br/>
@@ -57,7 +57,7 @@ const Home = () => {
               <Clock size={32} className="mb-2" />
               <p className="font-bold text-lg">Täglich geöffnet</p>
               <p className="text-blue-100">12:00 - 22:00 Uhr</p>
-              <p className="text-yellow-300 font-semibold text-sm">KEINE RUHETAGE!</p>
+              <p className="text-white font-semibold text-sm">KEINE RUHETAGE!</p>
             </div>
             <div className="flex flex-col items-center space-y-2">
               <Phone size={32} className="mb-2" />
@@ -75,7 +75,7 @@ const Home = () => {
               <span className="text-3xl mb-2">🏟️</span>
               <p className="font-bold text-lg">MSV Live</p>
               <p className="text-blue-100">Alle MSV Spiele</p>
-              <p className="text-yellow-300 font-semibold text-sm">LIVE BEI UNS!</p>
+              <p className="text-white font-semibold text-sm">LIVE BEI UNS!</p>
             </div>
           </div>
         </div>
