@@ -9,6 +9,7 @@ const Header = () => {
   const navigation = [
     { name: 'Startseite', path: '/' },
     { name: 'Speisekarte', path: '/speisekarte' },
+    { name: 'Erinnerungen', path: '/erinnerungen' },
     { name: 'Kontakt', path: '/kontakt' }
   ];
 
@@ -25,17 +26,17 @@ const Header = () => {
             </div>
             <div className="flex flex-col">
               <span className="text-2xl font-bold text-blue-700">DAMM GRILL</span>
-              <span className="text-xs text-gray-600">Griechisches Restaurant</span>
+              <span className="text-xs text-gray-600">Schnellimbiss & Restaurant</span>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8">
+          <nav className="hidden md:flex items-center space-x-6 lg:space-x-8">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 to={item.path}
-                className={`text-base font-medium transition-all duration-200 ${
+                className={`text-base font-medium transition-all duration-200 whitespace-nowrap ${
                   isActive(item.path)
                     ? 'text-blue-700 border-b-2 border-blue-700 pb-1'
                     : 'text-gray-700 hover:text-blue-600'
